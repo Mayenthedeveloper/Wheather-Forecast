@@ -9,7 +9,7 @@ Technology used to build this app:
 Javascript,
 HTML,
 CSS,
-jQuery,and 
+jQuery, and 
 Accu API
 
 App features
