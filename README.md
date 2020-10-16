@@ -6,10 +6,10 @@ This is a 5 day weather forecast that utilizes the Accu Weather API https://deve
 
 Technology used to build this app: 
 
-Javascript
-HTML
-CSS
-jQuery
+Javascript,
+HTML,
+CSS,
+jQuery,and 
 Accu API
 
 App features
