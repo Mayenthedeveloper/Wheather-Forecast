@@ -3,18 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>API Weather Forecast</title>
+    <title>Weather Forecast</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="images/rainbowicon.png">
   </head>
   <body>
-    <div class="container">
+    <div id='bg'></div>
+    <div class="container" >
       <header>
-      <h1>Weather Forecast</h1>
+      <h1 id="title">Weather Forecast</h1>
       </header>
 
       <form id="js-form">
         <input type='text' id='js-searchWeather' name='searchWeather' placeholder="Enter a zipcode..." required>
-        <button class="btn-search">
+        <button class="btn-search" id='searchButton'>
           Search
         </button>
     
@@ -22,12 +24,19 @@
 
       <p id="js-error-message" class="error-message"></p>
       <section id="results" class="hidden">
-        <h2 id = 'js-weatherLocation'>Five Day Weather Forecast for: </h2> 
-      
-        <p id="search-maxtemp"></p>
-        <p id="search-mintemp"></p>
-        <ul id='results-list'>
-        </ul>
+        <h2 id = 'js-weatherLocation'>Five Day Weather Forecast for - </h2> 
+
+        <table >
+          <tbody id="result-table">
+          <tr id="tableHeading">
+            <th>Date</th>
+            <th>Lowest Temperature</th>
+            <th>Highest Temperature</th>
+            <th>Day</th>
+            <th>Night</th>
+          </tr>
+          <tbody>
+        </table>
 
       </section>
 
