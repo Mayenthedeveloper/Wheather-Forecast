@@ -4,6 +4,8 @@ Overview
 
 This is a 5 day weather forecast that utilizes the Accu Weather API https://developer.accuweather.com/accuweather-alerts-api/apis to extract the weather data and display 5 day forecast by the search of each zip code.
 
+![This is the weather forecast image](./README.md)
+
 Technology used to build this app: 
 
 Javascript,
