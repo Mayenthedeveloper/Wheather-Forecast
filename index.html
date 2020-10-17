@@ -2,7 +2,7 @@
 <html lang='en'>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="images/rainbowicon.png">
@@ -13,19 +13,15 @@
       <header>
       <h1 id="title">Weather Forecast</h1>
       </header>
-
       <form id="js-form">
         <input type='text' id='js-searchWeather' name='searchWeather' placeholder="Enter a zipcode..." required>
         <button class="btn-search" id='searchButton'>
           Search
         </button>
-    
       </form>
-
       <p id="js-error-message" class="error-message"></p>
       <section id="results" class="hidden">
-        <h2 id = 'js-weatherLocation'>Five Day Weather Forecast for - </h2> 
-
+        <h2 id = 'js-weatherLocation'>Five Day Weather Forecast for </h2> 
         <table >
           <tbody id="result-table">
           <tr id="tableHeading">
@@ -39,9 +35,6 @@
         </table>
 
       </section>
-
-
-      
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
